@@ -1,5 +1,5 @@
 #include <iostream>
-#include <ios>
+#include <ios>// why does thids work without including ios?
 
 int main () {
   char next;
