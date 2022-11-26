@@ -1,0 +1,21 @@
+#include <iostream>
+
+
+
+//why unsigned? -45 /-5 is not allowed
+
+unsigned int mod(int dividend, int divisor) {
+  dividend -= dividend / divisor * divisor - divisor; // Account for negative values of dividend
+ 
+  // Note: the previous assignment is equivalent to
+  //   while (dividend <= 0) dividend += divisor;
+  
+  return dividend % divisor;
+}
+
+int main () {
+  int a,b;
+  std::cin >> a >> b;
+  std::cout << mod(a,b);
+  return 0;
+}
