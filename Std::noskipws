@@ -1,0 +1,9 @@
+#include <iostream>
+
+int main () {
+  char next;
+  std::cin >> std::noskipws; output the spaces too when I input a bc dce1
+  while (std::cin >> next) {
+    std::cout << next;
+  }
+  return 0;
