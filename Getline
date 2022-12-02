@@ -1,0 +1,15 @@
+#include <iostream>
+#include <fstream>
+#include <sstream>
+#include <cassert>
+#include <vector>
+#include <string>
+#include <ios>
+
+int main () {
+  std::string name;
+  std::getline(std::cin, name);
+  std::cout << name;
+  return 0;
+}
+// when input zhenxin cao, the output will be zhenxin Cao, the space will not be omitted
