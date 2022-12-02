@@ -1,7 +1,9 @@
 /* string 字符串 - 由character类型组成的vector。is technically a vector too.
 需要引入文件 #include <string>
 定义一个名为xxx的空字符串 std::string xxx;
-定义一个名为xxx， 元素为yyy（对于string来说是文本，对于vector来说大部分是数字）的字符串。std::string xxx ="yyy"
+定义一个名为xxx， 元素为yyy（对于string来说是文本，对于vector来说大部分是数字）的字符串。std::string xxx ="1 2 3"
+Or std::string a ("1 2 3")
+
 
 定义内容是n个a的字符转。std::string xxx=std::string (n,'a');
 
