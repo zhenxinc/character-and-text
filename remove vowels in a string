@@ -1,0 +1,17 @@
+值得学习的：
+1. getline 会原原本本把输入的字符串打出来
+2. continue 跳过，不输出
+
+#include <iostream>
+#include <vector>
+
+int main() {
+  std::string str;
+  getline (std::cin, str);
+  for (int i=0; i<str.length(); i++){
+    if (str.at(i)=='a' || str.at(i)=='A' || str.at(i)=='e' || str.at(i)=='E' || str.at(i)=='o' || str.at(i)=='O'|| str.at(i)=='u'|| str.at(i)=='U') continue;
+    else std::cout<<str.at(i);
+  }
+}
+
+
